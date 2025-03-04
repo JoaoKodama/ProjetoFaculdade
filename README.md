@@ -1,13 +1,15 @@
 # ProjetoFaculdade
 
-CREATE TABLE Aluno (
+CREATE TABLE Aluno 
+(
     id_aluno INT PRIMARY KEY AUTO_INCREMENT,
     nome VARCHAR(100) NOT NULL,
     email VARCHAR(100) UNIQUE NOT NULL,
     senha VARCHAR(255) NOT NULL
 );
 
-CREATE TABLE Atividade (
+CREATE TABLE Atividade 
+(
     id_atividade INT PRIMARY KEY AUTO_INCREMENT,
     titulo VARCHAR(100) NOT NULL,
     descricao TEXT,
